@@ -1,0 +1,272 @@
+:root {
+  --primary-BLUE: #1566C0;
+}
+
+* {
+  font-family: 'Righteous', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*HEADER*/
+h1 {
+  font-family: 'Righteous', sans-serif;
+  color: white;
+  font-size: 90px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px
+}
+
+.bottone-header {
+  width: 150px;
+}
+
+.lorem-titolo {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding-left: 70px;
+  padding-bottom: 200px;
+}
+
+.paragrafo-header {
+  color: white;
+}
+
+.header {
+  height: 125vh;
+  width: 100%;
+  background-size: cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.749) 0%, rgba(0, 0, 0, 0.445) 40%, rgba(0, 0, 0, 0) 100%), url(./media/header.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.silouette-onda-bianca {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.silouette-onda-grigia {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  bottom: 3%;
+  z-index: 0;
+
+}
+/*FINE HEADER*/
+
+
+/* SOTTO HEADER */
+h3 {
+  color: #1566C0;
+  font-family: 'Righteous', sans-serif;
+  font-size: 40px;
+  width: 300px;
+}
+
+#lorem-centrale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lorem-centrale>p {
+  font-weight: bold;
+  color: rgb(121, 121, 121);
+}
+
+.container-lorem-centrale {
+  width: 100%;
+}
+/* SOTTO HEADER */
+
+
+/* INIZIO CARD */
+.icona-card {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: 'Righteous', sans-serif;
+}
+
+.card-title {
+  padding-top: 2vh;
+}
+
+.box-testo-carta {
+  margin-top: 9vh;
+}
+
+.testo-carta {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-section {
+  height: 60vh;
+}
+
+.card-img-overlay {
+  height: 20vh;
+  margin-top: 6vh;
+  padding-bottom: 12vh;
+}
+
+.card-img {
+  background: linear-gradient(180deg, rgba(0,0,0,0.8380602240896359) 15%, rgba(0,0,0,0.5327380952380952) 50%, rgba(0,0,0,0.7820378151260504) 85%), url(./media/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img2 {
+  background: linear-gradient(180deg, rgba(0,0,0,0.8380602240896359) 15%, rgba(0,0,0,0.5327380952380952) 50%, rgba(0,0,0,0.7820378151260504) 85%), url(./media/2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img3 {
+  background: linear-gradient(180deg, rgba(0,0,0,0.8380602240896359) 15%, rgba(0,0,0,0.5327380952380952) 50%, rgba(0,0,0,0.7820378151260504) 85%), url(./media/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img4 {
+  background: linear-gradient(180deg, rgba(0,0,0,0.8380602240896359) 15%, rgba(0,0,0,0.5327380952380952) 50%, rgba(0,0,0,0.7820378151260504) 85%), url(./media/4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img {
+  height: 40vh;
+}
+.card-img2{
+  height: 40vh;
+}
+.card-img3 {
+  height: 40vh;
+}
+.card-img4 {
+  height: 40vh;
+}
+
+.bordino-giallo{
+  border-bottom: 3px solid rgb(218, 181, 17);
+}
+/* FINE CARD */
+
+
+
+/* ICONE */
+.margin_container {
+  margin-top: 5vh;
+}
+
+.Lorem{
+  color: var(--primary-BLUE);
+  padding-bottom: 2vh;
+  padding-top: 0px;
+}
+
+.bordo-ombra{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 50%;
+  height: 33vh;
+}
+
+/* LOREM E ICONE*/
+.row-totale{
+  flex-wrap: nowrap;
+}
+
+.carta-icone {
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+
+}
+
+.container-icone{
+  width: 80vh;
+  flex-wrap: wrap;
+}
+
+.larghezza-icone {
+  width: 50px;
+  font-size: 30px;
+}
+
+/* Prova prime card*/
+.card-title2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.card-text2 {
+  color: black;
+}
+
+.margin-topIcon {
+  margin-top: 250px;
+}
+
+
+
+/* Inizio prime foto */
+.container-img2 {
+  width: 100%;
+  height: 40vh;
+
+}
+
+.container-img3 {
+  width: 100%;
+  height: 40vh;
+
+}
+
+.cornice2 {
+  border: solid 4px rgb(0, 38, 255);
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+}
+
+.box-foto-piccola2 {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.foto {
+  background-image: url(./media/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.provo {
+  width: 100%;
+  text-align: start;
+}
+
+.provo2 {
+  margin-left: 12px;
+}
+/* Fine prime foto */
